@@ -4,7 +4,7 @@ import statistics
 import random
 import pandas as pd
 import csv
-``
+
 df = pd.read_csv("School1.csv")
 data = df["Math_score"].tolist()
 
